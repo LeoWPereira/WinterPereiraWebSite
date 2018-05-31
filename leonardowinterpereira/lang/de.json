@@ -1,3 +1,12 @@
 {
-    "string1" : "String de-de"
+    "aboutMe" 									: "Über mich",
+    "about"										: "",
+    "portfolio"									: "",
+    "publications"								: "",
+    "courses"									: "",
+    "ProjectDevelopment"						: "",
+    "EmbeddedLinux"								: "",
+    "EmbeddedSystems"							: "",
+    "allRightsReserved"							: "",
+    "creatingABSPLayer"							: ""
 }

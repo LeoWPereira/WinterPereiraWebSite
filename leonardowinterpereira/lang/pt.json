@@ -1,3 +1,12 @@
 {
-    "string1" : "String pt-br"
+    "aboutMe" 									: "Sobre mim",
+    "about"										: "Sobre",
+    "portfolio"									: "Portfólio",
+    "publications"								: "Publicações",
+    "courses"									: "Cursos",
+    "ProjectDevelopment"						: "Desenvolvimento de Projetos",
+    "EmbeddedLinux"								: "Linux Embarcado",
+    "EmbeddedSystems"							: "Sistemas Embarcados",
+    "allRightsReserved"							: "Todos os Direitos Reservados",
+    "creatingABSPLayer"							: "Escrevendo sua própria camada BSP"
 }

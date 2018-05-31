@@ -2628,6 +2628,18 @@ body {
 .cid-qvbjfGj2Ze H2 {
   text-align: left;
 }
+.cid-gray {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #dbdbdb;
+}
+.cid-gray .mbr-section-subtitle {
+  color: #767676;
+  text-align: left;
+}
+.cid-gray H2 {
+  text-align: left;
+}
 .cid-qvbjomyZfb {
   padding-top: 15px;
   padding-bottom: 15px;
