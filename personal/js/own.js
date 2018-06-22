@@ -1,9 +1,7 @@
 $(function() {
-    $(".preload").fadeOut(100, function() {
+    $(".preload").fadeOut(1000, function() {
     	 $(document).ready(function() {
 		   $(".content").fadeIn(100);
 		 });
     });
-
-    $("#MenuContent").load("./html/menu.html");
 });
