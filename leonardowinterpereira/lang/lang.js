@@ -14,7 +14,12 @@ var translate = function (jsdata)
     });
 }
 
-langCode = navigator.language.substr(0, 2);
+langCode = Cookies.get('language');
+
+if(langCode == undefined)
+{
+	langCode = navigator.language.substr(0, 2);
+}
 
 if($.inArray(langCode, langs) != -1)
 {
@@ -27,16 +32,11 @@ else
 }
 
 function TranslateStrings(_langCode)
-{
-	langCode = _langCode;
+{	
+	Cookies.set('language', _langCode, { expires: 7 });
 	
 	if($.inArray(langCode, langs) != -1)
 	{
-		$.getJSON('lang/' + langCode + '.json', translate);
-	}
-
-	else 
-	{
-		$.getJSON('lang/en.json', translate);
+		$.getJSON('lang/' + _langCode + '.json', translate);
 	}
 }

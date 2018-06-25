@@ -1,129 +1,479 @@
-<!DOCTYPE html>
+<script src="./lang/lang.js"></script>
 
-<html class="desktop mbr-site-loaded">
-    <script src="./JS/jquery.min.js"></script>
-    <script src="./lang/lang.js"></script>
+<script> 
+    $(function()
+    {		
+    	$("#readMoreComputerIngenieurwesen").slideUp();
+    	$("#readMore_rapid_prototyping_intern").slideUp();
+    	$("#readMore_computer_networks_intern").slideUp();
+    	$("#readMore_theory_of_hybrid_systems_intern").slideUp();
+    	$("#readMore_web_and_mobile_developer_treinei").slideUp();
+    	$("#readMore_web_and_mobile_developer_Bodylabs").slideUp();
+    	$("#readMore_embedded_system_intern").slideUp();
+    	$("#readMore_embedded_system_analyst").slideUp();
+    	
+        $(document).ready(function() {		
+        	$("#toggle-readMore_embedded_system_analyst").click(function() {
+			var elem = $("#toggle-readMore_embedded_system_analyst").text();
+			
+			if (elem == "Read More") 
+			{
+				//Stuff to do when btn is in the read more state
+				$("#toggle-readMore_embedded_system_analyst").text("Read Less");
+				$("#readMore_embedded_system_analyst").slideDown();
+			} 
+			
+			else
+			{
+				//Stuff to do when btn is in the read less state
+				$("#toggle-readMore_embedded_system_analyst").text("Read More");
+				$("#readMore_embedded_system_analyst").slideUp();
+			}
+		});
+		
+        	$("#toggle-readMore_embedded_system_intern").click(function() {
+			var elem = $("#toggle-readMore_embedded_system_intern").text();
+			
+			if (elem == "Read More") 
+			{
+				//Stuff to do when btn is in the read more state
+				$("#toggle-readMore_embedded_system_intern").text("Read Less");
+				$("#readMore_embedded_system_intern").slideDown();
+			} 
+			
+			else
+			{
+				//Stuff to do when btn is in the read less state
+				$("#toggle-readMore_embedded_system_intern").text("Read More");
+				$("#readMore_embedded_system_intern").slideUp();
+			}
+		});
+		
+        	$("#toggle-readMore_web_and_mobile_developer_Bodylabs").click(function() {
+			var elem = $("#toggle-readMore_web_and_mobile_developer_Bodylabs").text();
+			
+			if (elem == "Read More") 
+			{
+				//Stuff to do when btn is in the read more state
+				$("#toggle-readMore_web_and_mobile_developer_Bodylabs").text("Read Less");
+				$("#readMore_web_and_mobile_developer_Bodylabs").slideDown();
+			} 
+			
+			else
+			{
+				//Stuff to do when btn is in the read less state
+				$("#toggle-readMore_web_and_mobile_developer_Bodylabs").text("Read More");
+				$("#readMore_web_and_mobile_developer_Bodylabs").slideUp();
+			}
+		});
+		
+        	$("#toggle-readMore_web_and_mobile_developer_treinei").click(function() {
+			var elem = $("#toggle-readMore_web_and_mobile_developer_treinei").text();
+			
+			if (elem == "Read More") 
+			{
+				//Stuff to do when btn is in the read more state
+				$("#toggle-readMore_web_and_mobile_developer_treinei").text("Read Less");
+				$("#readMore_web_and_mobile_developer_treinei").slideDown();
+			} 
+			
+			else
+			{
+				//Stuff to do when btn is in the read less state
+				$("#toggle-readMore_web_and_mobile_developer_treinei").text("Read More");
+				$("#readMore_web_and_mobile_developer_treinei").slideUp();
+			}
+		});
+		
+        	$("#toggle-readMore_theory_of_hybrid_systems_intern").click(function() {
+			var elem = $("#toggle-readMore_theory_of_hybrid_systems_intern").text();
+			
+			if (elem == "Read More") 
+			{
+				//Stuff to do when btn is in the read more state
+				$("#toggle-readMore_theory_of_hybrid_systems_intern").text("Read Less");
+				$("#readMore_theory_of_hybrid_systems_intern").slideDown();
+			} 
+			
+			else
+			{
+				//Stuff to do when btn is in the read less state
+				$("#toggle-readMore_theory_of_hybrid_systems_intern").text("Read More");
+				$("#readMore_theory_of_hybrid_systems_intern").slideUp();
+			}
+		});
+		
+		$("#toggle-readMoreComputerIngenieurwesen").click(function() {
+			var elem = $("#toggle-readMoreComputerIngenieurwesen").text();
+			
+			if (elem == "Read More") 
+			{
+				//Stuff to do when btn is in the read more state
+				$("#toggle-readMoreComputerIngenieurwesen").text("Read Less");
+				$("#readMoreComputerIngenieurwesen").slideDown();
+			} 
+			
+			else
+			{
+				//Stuff to do when btn is in the read less state
+				$("#toggle-readMoreComputerIngenieurwesen").text("Read More");
+				$("#readMoreComputerIngenieurwesen").slideUp();
+			}
+		});
+		
+		$("#toggle-readMore_rapid_prototyping_intern").click(function() {
+			var elem = $("#toggle-readMore_rapid_prototyping_intern").text();
+			
+			if (elem == "Read More") 
+			{
+				//Stuff to do when btn is in the read more state
+				$("#toggle-readMore_rapid_prototyping_intern").text("Read Less");
+				$("#readMore_rapid_prototyping_intern").slideDown();
+			} 
+			
+			else
+			{
+				//Stuff to do when btn is in the read less state
+				$("#toggle-readMore_rapid_prototyping_intern").text("Read More");
+				$("#readMore_rapid_prototyping_intern").slideUp();
+			}
+		});
+		
+		$("#toggle-readMore_computer_networks_intern").click(function() {
+			var elem = $("#toggle-readMore_computer_networks_intern").text();
+			
+			if (elem == "Read More") 
+			{
+				//Stuff to do when btn is in the read more state
+				$("#toggle-readMore_computer_networks_intern").text("Read Less");
+				$("#readMore_computer_networks_intern").slideDown();
+			} 
+			
+			else
+			{
+				//Stuff to do when btn is in the read less state
+				$("#toggle-readMore_computer_networks_intern").text("Read More");
+				$("#readMore_computer_networks_intern").slideUp();
+			}
+		});
+	});
+    });
+</script>
 
-    <script> 
-        $(function()
-        {
-            $("#MenuContent").load("./content/menu.html");
-            $("#GoogleAnalytics").load("./content/googleAnalytics.html");
-            $("#Footer").load("./content/footer.html");
-            $("#laterScriptsIncludes").load("./content/laterScriptsIncluces.html");
-        });
-    </script>
+<section class="mbr-section content5 cid-qvbiXHsAN2 mbr-parallax-background" id="content5-7w" data-rv-view="8336" data-jarallax-original-styles="null" style="z-index: 0; position: relative; background-image: none; background-attachment: scroll; background-size: auto;">
+    <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(35, 35, 35);">
+    </div>
 
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-        <meta name="generator" content="LeonardoWinterPereira, leonardowinterpereira.com">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="HTML Blog Template - Free Download">
-
-        <meta property="og:url" content="https://lipis.github.io/flag-icon-css/" />
-
-        <link rel="shortcut icon" href="https://mobirise.com/bootstrap-template/assets/images/logo2.png" type="image/x-icon">
-
-        <link rel="stylesheet" href="./CSS/mobirise-icons.css">
-        <link rel="stylesheet" href="./CSS/tether.min.css">
-        <link rel="stylesheet" href="./CSS/bootstrap.min.css">
-        <link rel="stylesheet" href="./CSS/bootstrap-grid.min.css">
-        <link rel="stylesheet" href="./CSS/bootstrap-reboot.min.css">
-        <link rel="stylesheet" href="./CSS/style.css">
-        <link rel="stylesheet" href="./CSS/style(1).css">
-        <link rel="stylesheet" href="./CSS/mbr-additional.css" type="text/css">
-
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="./assets/docs.css" rel="stylesheet">
-        <link href="./CSS/flag-icon.css" rel="stylesheet">
-
-        <title>Leonardo Winter Pereira</title>
-
-        <style type="text/css" id="#jarallax-clip-0">#jarallax-container-0 
-            {
-                clip: rect(0 1903px 425px 0);
-                clip: rect(0, 1903px, 425px, 0);
-            }
-        </style>
-    </head>
-    
-    <body>
-        <div id="GoogleAnalytics"></div>
-
-        <div id="MenuContent"></div>
-        
-        <section class="mbr-section content5 cid-qvbiXHsAN2 mbr-parallax-background" id="content5-7w" data-rv-view="8336" data-jarallax-original-styles="null" style="z-index: 0; position: relative; background-image: none; background-attachment: scroll; background-size: auto;">
-            <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(35, 35, 35);">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h1 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">Sobre Mim</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">Make your own bootstrap blog in minutes!</h3>
             </div>
+        </div>
+    </div>
 
-            <div class="container">
-                <div class="media-container-row">
-                    <div class="title col-12 col-md-8">
-                        <h1 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">Sobre Mim</h1>
-                        <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">Make your own bootstrap blog in minutes!&nbsp;</h3>
-                    </div>
-                </div>
+    <div id="jarallax-container-0" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -100;">
+        <div style="background-position: 50% 50%; background-size: 100%; background-repeat: no-repeat; background-image: url(https://mobirise.com/bootstrap-template/assets/images/iphone-6-458151-1920-1920x1285-67-1920x1285.jpg); position: fixed; top: 0px; left: 0px; width: 1903px; height: 1273.62px; overflow: hidden; pointer-events: none; margin-left: 0px; margin-top: -167.811px; visibility: visible; transform: translate3d(0px, -153.9px, 0px);">
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section content4 cid-qvbjfGj2Ze" id="content4-7x" data-rv-view="8339">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-5" tkey="personal_info"></h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-7">
+                    <em tkey=""></em>
+                </h3>
             </div>
+        </div>
+    </div>
+</section>
 
-            <div id="jarallax-container-0" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -100;">
-                <div style="background-position: 50% 50%; background-size: 100%; background-repeat: no-repeat; background-image: url(https://mobirise.com/bootstrap-template/assets/images/iphone-6-458151-1920-1920x1285-67-1920x1285.jpg); position: fixed; top: 0px; left: 0px; width: 1903px; height: 1273.62px; overflow: hidden; pointer-events: none; margin-left: 0px; margin-top: -167.811px; visibility: visible; transform: translate3d(0px, -153.9px, 0px);">
-                </div>
+<section class="mbr-section article content1 cid-qvbjomyZfb" id="content1-7y" data-rv-view="8341">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <p tkey=""></p>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
 
-        <section class="mbr-section content4 cid-qvbjfGj2Ze" id="content4-7x" data-rv-view="8339">
-            <div class="container">
-                <div class="media-container-row">
-                    <div class="title col-12 col-md-8">
-                        <h2 class="align-center pb-3 mbr-fonts-style display-5">DROP-DEAD EASY BOOTSTRAP BLOG</h2>
-                        <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-7">
-                            <em>July 30, 2016</em>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="mbr-section article content1 cid-qvbjomyZfb" id="content1-7y" data-rv-view="8341">
-            <div class="container">
-                <div class="media-container-row">
-                    <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
-                        <p tkey="string1"></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="mbr-section article content1 cid-qvbjsgNEPl" id="content2-7z" data-rv-view="8342">
-            <div class="container">
-                <div class="media-container-row">
-                    <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
-                        <blockquote>
-                            <p tkey="string2"></p>
-                        </blockquote>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="cid-qvbjxOlHgO" id="image1-80" data-rv-view="8343">
-            <figure class="mbr-figure container">
-                <div class="image-block" style="width: 66%;">
-                    <img src="./Images/coffee-923094-1920-1920x1280-16-1400x933.jpg" width="1400" alt="Mobirise" title="" media-simple="true">
-                    
-                    <figcaption class="mbr-figure-caption mbr-figure-caption-over">
-                        <div class="container pb-5 mbr-white align-center mbr-fonts-style display-7">
-                            Vestibulum id nisl eu ipsum ultrices sodales. Donec non nibh at diam porta porttitor.
+<section class="mbr-section content4 cid-qvbjfGj2Ze" id="content4-7x" data-rv-view="8339" style="background-color: #2b2b2b2b">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-5" tkey="professional_experience"></h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-7">
+                    <em tkey=""></em>
+                </h3>
+                
+                <div class="timeline">
+                    <div class="timeline-entry">
+                        <div class="timeline-title">
+                            <h3 tkey="embedded_system_analyst_date"></h3>
                         </div>
-                    </figcaption>
+                    
+                        <div class="timeline-body">
+                            <p tkey="embedded_system_analyst"></p>
+                            
+                            <ul tkey="Agres_full"></ul>
+                            
+                            <span id="readMore_embedded_system_analyst">
+	                            <ul>
+	                                <li tkey="embedded_system_analyst_task1"></li>
+	                                <li tkey="embedded_system_analyst_task2"></li>
+	                                <li tkey="embedded_system_analyst_task3"></li>
+	                                <li tkey="embedded_system_analyst_task4"></li>
+	                                <li tkey="embedded_system_analyst_task5"></li>
+	                            </ul>
+	                    </span>
+	                    
+	                    <div class="btn-container">
+				<button id="toggle-readMore_embedded_system_analyst" tkey="readMore"></button>
+			    </div>
+                        </div>   
+                    </div>
+                    
+                    <div class="timeline-entry">
+                        <div class="timeline-title">
+                            <h3 tkey="embedded_system_intern_date"></h3>
+                        </div>
+                    
+                        <div class="timeline-body">
+                            <p tkey="embedded_system_intern"></p>
+                            
+                            <ul tkey="Agres_full"></ul>
+                            
+                            <span id="readMore_embedded_system_intern">
+	                            <ul>
+	                                <li tkey="embedded_system_intern_task1"></li>
+	                                <li tkey="embedded_system_intern_task2"></li>
+	                                <li tkey="embedded_system_intern_task3"></li>
+	                                <li tkey="embedded_system_intern_task4"></li>
+	                                <li tkey="embedded_system_intern_task5"></li>
+	                            </ul>
+	                    </span>
+	                    
+	                    <div class="btn-container">
+				<button id="toggle-readMore_embedded_system_intern" tkey="readMore"></button>
+			    </div>
+                        </div>   
+                    </div>
+                    
+                    <div class="timeline-entry">
+                        <div class="timeline-title">
+                            <h3 tkey="web_and_mobile_developer_Bodylabs_date"></h3>
+                        </div>
+                    
+                        <div class="timeline-body">
+                            <p tkey="web_and_mobile_developer_Bodylabs"></p>
+                            
+                            <ul tkey="BodyLabs_full"></ul>
+                            
+                            <span id="readMore_web_and_mobile_developer_Bodylabs">
+	                            <ul>
+	                                <li tkey="web_and_mobile_developer_Bodylabs_task1"></li>
+	                                <li tkey="web_and_mobile_developer_Bodylabs_task2"></li>
+	                                <li tkey="web_and_mobile_developer_Bodylabs_task3"></li>
+	                            </ul>
+	                    </span>
+	                    
+	                    <div class="btn-container">
+				<button id="toggle-readMore_web_and_mobile_developer_Bodylabs" tkey="readMore"></button>
+			    </div>
+                        </div>   
+                    </div>
+                    
+                    <div class="timeline-entry">
+                        <div class="timeline-title">
+                            <h3 tkey="web_and_mobile_developer_treinei_date"></h3>
+                        </div>
+                    
+                        <div class="timeline-body">
+                            <p tkey="web_and_mobile_developer_treinei"></p>
+                            
+                            <ul tkey="Treinei_full"></ul>
+                            
+                            <span id="readMore_web_and_mobile_developer_treinei">
+	                            <ul>
+	                                <li tkey="web_and_mobile_developer_treinei_task1"></li>
+	                                <li tkey="web_and_mobile_developer_treinei_task2"></li>
+	                                <li tkey="web_and_mobile_developer_treinei_task3"></li>
+	                            </ul>
+	                    </span>
+	                    
+	                    <div class="btn-container">
+				<button id="toggle-readMore_web_and_mobile_developer_treinei" tkey="readMore"></button>
+			    </div>
+                        </div>   
+                    </div>
+                    
+                    <div class="timeline-entry">
+                        <div class="timeline-title">
+                            <h3 tkey="theory_of_hybrid_systems_intern_date"></h3>
+                        </div>
+                    
+                        <div class="timeline-body">
+                            <p tkey="theory_of_hybrid_systems_intern"></p>
+                            
+                            <ul tkey="RWTH_full"></ul>
+                            
+                            <span id="readMore_theory_of_hybrid_systems_intern">
+	                            <ul>
+	                                <li tkey="theory_of_hybrid_systems_intern_task1"></li>
+	                                <li tkey="theory_of_hybrid_systems_intern_task2"></li>
+	                                <li tkey="theory_of_hybrid_systems_intern_task3"></li>
+	                                <li tkey="theory_of_hybrid_systems_intern_task4"></li>
+	                            </ul>
+	                    </span>
+	                    
+	                    <div class="btn-container">
+				<button id="toggle-readMore_theory_of_hybrid_systems_intern" tkey="readMore"></button>
+			    </div>
+                        </div>   
+                    </div>
+                    
+                    <div class="timeline-entry">
+                        <div class="timeline-title">
+                            <h3 tkey="computer_networks_intern_date"></h3>
+                        </div>
+                    
+                        <div class="timeline-body">
+                            <p tkey="computer_networks_intern"></p>
+                            
+                            <ul tkey="CMC_full"></ul>
+                            
+                            <span id="readMore_computer_networks_intern">
+	                            <ul>
+	                                <li tkey="computer_networks_intern_task1"></li>
+	                                <li tkey="computer_networks_intern_task2"></li>
+	                                <li tkey="computer_networks_intern_task3"></li>
+	                            </ul>
+	                    </span>
+	                    
+	                    <div class="btn-container">
+				<button id="toggle-readMore_computer_networks_intern" tkey="readMore"></button>
+			    </div>
+                        </div>   
+                    </div>
+                    
+                    <div class="timeline-entry">
+                        <div class="timeline-title">
+                            <h3 tkey="rapid_prototyping_intern_date"></h3>
+                        </div>
+                    
+                        <div class="timeline-body">
+                            <p tkey="rapid_prototyping_intern"></p>
+                            
+                            <ul tkey="UTFPR_full"></ul>
+                            
+                            <span id="readMore_rapid_prototyping_intern">
+	                            <ul>
+	                                <li tkey="rapid_prototyping_intern_task1"></li>
+	                                <li tkey="rapid_prototyping_intern_task2"></li>
+	                            </ul>
+	                    </span>
+	                    
+	                    <div class="btn-container">
+				<button id="toggle-readMore_rapid_prototyping_intern" tkey="readMore"></button>
+			    </div>
+                        </div>   
+                    </div>
                 </div>
-            </figure>
-        </section>
+            </div>
+        </div>
+    </div>
+</section>
 
-        <div id="Footer"></div>
+<section class="mbr-section content4 cid-qvbjfGj2Ze" id="content4-7x" data-rv-view="8339">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-5" tkey="formation"></h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-7">
+                    <em tkey=""></em>
+                </h3>
+		
+                <div class="timeline">
+                    <div class="timeline-entry">
+                        <div class="timeline-title">
+                            <h3 tkey="computer_engineer_date"></h3>
+                        </div>
+                    
+                        <div class="timeline-body">
+                            <p tkey="computer_engineer"></p>
+                            
+                            <ul tkey="UTFPR_full"></ul>
+                        </div>   
+                    </div>
+                    
+                    <div class="timeline-entry">
+                        <div class="timeline-title">
+                            <h3 tkey="computer_ingenieurwesen_date"></h3>
+                        </div>
+                    
+                        <div class="timeline-body">
+                            <p tkey="computer_ingenieurwesen"></p>
+                            
+                            <ul tkey="RWTH_full"></ul>
+                            
+                            <span id="readMoreComputerIngenieurwesen">
+	                            <ul>
+	                                <li tkey="mobileInternetTechnology"></li>
+	                                <li tkey="cryptography"></li>
+	                                <li tkey="gameProgramming"></li>
+	                                <li tkey="introductionToLanguageofScientificComputing"></li>
+	                                <li tkey="numericCalculation"></li>
+	                                <li tkey="theSoftwareProgrammingLanguageAda95"></li>
+	                            </ul>
+	                    </span>
+	                    
+	                    <div class="btn-container">
+				<button id="toggle-readMoreComputerIngenieurwesen" tkey="readMore"></button>
+			    </div>
+                        </div>   
+                    </div>
+                    
+                    <div class="timeline-entry">
+                        <div class="timeline-title">
+                            <h3 tkey="mechanical_technician_date"></h3>
+                        </div>
+                    
+                        <div class="timeline-body">
+                            <p tkey="mechanical_technician"></p>
+                            
+                            <ul tkey="UTFPR_full"></ul>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-        <div id="laterScriptsIncludes"></div>
-    </body>
-</html>
+<section class="mbr-section content4 cid-qvbjfGj2Ze" id="content4-7x" data-rv-view="8339" style="background-color: #2b2b2b2b">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-5" tkey="personal_skills"></h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-7">
+                    <em tkey=""></em>
+                </h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-qvbjomyZfb" id="content1-7y" data-rv-view="8341" style="background-color: #2b2b2b2b">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <p tkey=""></p>
+            </div>
+        </div>
+    </div>
+</section>

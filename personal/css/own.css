@@ -33,3 +33,14 @@
 
 /* End Download BTN area css
 ============================================================================================ */
+
+.own-footer {
+  text-align: center; 
+  color: #FFFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.justified-Text {
+  text-align: justify;
+}
